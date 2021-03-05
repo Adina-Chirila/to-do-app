@@ -9,9 +9,6 @@
 body {
 	overflow-x: hidden;
 	position: relative;
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
 }
 
 .container {
@@ -39,7 +36,6 @@ header {
 	width: 75%;
 	max-width: 450px;
 	position: relative;
-	/* border: 1px solid red; */
 }
 
 .app-container input {
@@ -77,7 +73,7 @@ header {
 	cursor: pointer;
 }
 
-.list-item.checked {
+.list-item.completed {
 	text-decoration: line-through;
 }
 
@@ -103,7 +99,6 @@ header {
 	top: 3em;
 	right: -2.3em;
 	display: none;
-	/* display: flex; */
 	box-shadow: 1px 2px 5px -2px rgba(0, 0, 0, 0.75);
 	-webkit-box-shadow: 1px 2px 5px -2px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 1px 2px 5px -2px rgba(0, 0, 0, 0.75);
